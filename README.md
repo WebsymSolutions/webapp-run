@@ -43,7 +43,7 @@ Webapp Runner will then launch a Tomcat instance with the given war deployed to 
 ## Configure Maven to Download Webapp Runner
 
 Although not necessary for using Webapp Runner it's a good idea to have your build tool download Webapp Runner for you since your application will need it to run. You could, of course, just download Webapp Runner and use it to launch your application without doing this. However having all of your dependencies defined in your build descriptor is important for application portability and repeatability of deployment. In this case we're using Maven so we'll use the dependency plugin to download the jar. Add the following plugin configuration to your pom.xml:
-
+      test
     <build>
         ...
         <plugins>
